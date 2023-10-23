@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+.header {
+  max-width: 1920px;
+  height: 265px;
+  margin: 0 auto;
+  position: relative;
+}
+.header nav {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4862745098);
+  background-color: #fff;
+  z-index: 3;
+  position: absolute;
+  top: -2%;
+}
+.header nav .nav__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.header nav .nav__main img {
+  width: 152px;
+  height: 32px;
+}
+.header nav .nav__main .nav_list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 15px;
+}
+.header nav .nav__main .nav_list .menu {
+  display: flex;
+  width: 140px;
+  padding: 8px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #FFF;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background: #70C05B;
+}
+.header nav .nav__main .nav_list .input_search {
+  padding-left: 10px;
+  position: relative;
+  width: 344px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #70c05b;
+  outline: none;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+.header nav .nav__main .nav_menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 55px;
+}
+.header nav .nav__main .nav_menu a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: 400;
+}
+.header nav .nav__main .nav_menu a:hover {
+  filter: invert(74%) sepia(8%) saturate(2749%) hue-rotate(62deg) brightness(93%) contrast(80%);
+}
+.header nav .nav__main .admin_btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+.header nav .nav__main .admin_btn :hover {
+  color: #70C05B;
+}
+.header nav .nav__main .admin_btn2 {
+  color: #70C05B;
+}
+.header .header_hero {
+  padding-top: 65px;
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/Group\ 7100.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.header .header_hero img {
+  width: 302px;
+  height: 202px;
+}
+.header .header_hero h1 {
+  color: #414141;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+main {
+  max-width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FBF8EC;
+  overflow: hidden;
+}
+main .card_list {
+  width: 100%;
+  height: 1150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .card_list .container_main {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+main .card_list .container_main .card_list_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .card_list .container_main .card_list_title h2 {
+  color: #414141;
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+main .card_list .container_main .card_lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 80px;
+}
+main .card_list .container_main .card_lists .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  width: 272px;
+  height: 410px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  transition: ease-in-out 350ms;
+}
+main .card_list .container_main .card_lists .card img {
+  border-radius: 10px;
+  width: 272px;
+  height: 160px;
+}
+main .card_list .container_main .card_lists .card .scene {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 256px;
+}
+main .card_list .container_main .card_lists .card .scene p {
+  color: #414141;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+main .card_list .container_main .card_lists .card .karta {
+  display: flex;
+  width: 256px;
+  justify-content: space-between;
+  align-items: center;
+}
+main .card_list .container_main .card_lists .card .karta p {
+  color: #bfbfbf;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+main .card_list .container_main .card_lists .card h3 {
+  color: #414141;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 256px;
+}
+main .card_list .container_main .card_lists .card .rating {
+  margin-top: -10px;
+  width: 256px;
+  height: 16px;
+}
+main .card_list .container_main .card_lists .card .add {
+  width: 256px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 8px;
+  border-radius: 4px;
+  border: 1px solid #70c05b;
+  cursor: pointer;
+  gap: 8px;
+  color: #70c05b;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+main .card_list .container_main .card_lists .card .korzina:hover {
+  background: #f63;
+  color: #fff;
+  border: none;
+}
+main .card_list .container_main .card_lists .card:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 2px 8px 2px rgba(255, 102, 51, 0.2);
+}
+main .card_list2 {
+  display: none;
+}
+main .admin {
+  width: 300px;
+  height: 330px;
+  padding: 15px 5px;
+  background: #fff;
+  position: absolute;
+  top: -50%;
+  left: 79%;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.332);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  transition: ease-in-out 450ms;
+  z-index: 1;
+}
+main .admin form {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main .admin form input {
+  width: 200px;
+  height: 30px;
+  padding: 0px 10px;
+  outline: none;
+  border: 2px solid #f63;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+main .admin form button {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 102, 51, 0.432);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+main .admin2 {
+  top: 9%;
+}
+
+.add_main {
+  max-width: 1920px;
+  height: 100vh;
+  background: #FBF8EC;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add_list {
+  width: 100%;
+  height: 1150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  display: flex;
+}
+.add_list .add_list_inp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 155px;
+  border-bottom: 1px solid #e6dbad;
+  width: 100%;
+  height: 10%;
+}
+.add_list .add_list_inp form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.add_list .add_list_inp form label {
+  margin-left: 85px;
+  font-size: 22px;
+  color: #414141;
+  font-weight: 600;
+}
+.add_list .add_list_inp form input {
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2392156863);
+  width: 300px;
+  height: 35px;
+}
+.add_list .add_list_inp form input::placeholder {
+  font-style: italic;
+}
+.add_list .add_list_inp button {
+  width: 150px;
+  height: 35px;
+  background: #70c05b;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add_list .box {
+  width: 95%;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 35px;
+}
+.add_list .box .new_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  width: 272px;
+  height: 410px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  transition: ease-in-out 350ms;
+}
+.add_list .box .new_card img {
+  width: 272px;
+  height: 160px;
+}
+.add_list .box .new_card h2 {
+  color: #414141;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.add_list .box .new_card button {
+  width: 256px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 8px;
+  border-radius: 4px;
+  border: 1px solid #70c05b;
+  cursor: pointer;
+  gap: 8px;
+  color: #70c05b;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.add_list .box .new_card button :hover {
+  background: #f63;
+  color: #fff;
+  border: none;
+}
+.add_list .box .new_card p {
+  font-size: 14px;
+}
+.add_list .box .new_card:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 2px 8px 2px rgba(255, 102, 51, 0.2);
+}
+
+.send {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  border: 0;
+  border-radius: 50%;
+  background: #f63;
+  color: #FBF8EC;
+  font-size: 16px;
+  font-weight: 600;
+  top: 632px;
+  left: 1410px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2941176471);
+  transition: ease-in-out 450ms;
+}
+
+.send:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.clear {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  border: 0;
+  border-radius: 50%;
+  background: #414141;
+  color: #FBF8EC;
+  font-size: 16px;
+  font-weight: 600;
+  top: 632px;
+  left: 1310px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2941176471);
+  transition: ease-in-out 450ms;
+}
+
+.clear:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.list {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list .list__main {
+  width: 90%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.list .list__main h1 {
+  font-size: 64px;
+  color: #414141;
+}
+.list .list__main .buy_list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 15px;
+  color: #414141;
+  overflow-y: scroll;
+}
+.list .list__main .buy_list .buy_card {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 72px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.list .list__main .buy_list .buy_card img {
+  width: 80px;
+  height: 100%;
+}
+.list .list__main .buy_list .buy_card .buy_card_info {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+}
+.list .list__main .buy_list .buy_card .buy_card_number {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 105px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.list .list__main .buy_list .buy_card .buy_card_number button {
+  width: 35px;
+  height: 35px;
+  font-size: 28px;
+  background: #5fb14a;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+.list .list__main .buy_list .buy_card .buy_card_number span {
+  width: 35px;
+  height: 35px;
+  background: #70C05B;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list .list__main .buy_list .buy_card h3 {
+  color: #414141;
+  margin-left: 30%;
+}
+.list .list__main .buy_list::-webkit-scrollbar {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  max-width: 1920px;
+  height: 126px;
+  background: #F9F4E2;
+  margin: 0 auto;
+}
+.footer .ft_main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+  background: url(../img/bg.png);
+  background-size: 100%;
+}
+.footer .ft_main .logo_footer {
+  width: 134px;
+  height: 35px;
+  margin-left: 90px;
+}
+.footer .ft_main ul {
+  display: flex;
+  list-style: none;
+  column-gap: 40px;
+}
+.footer .ft_main ul a {
+  text-decoration: none;
+  color: #414141;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
